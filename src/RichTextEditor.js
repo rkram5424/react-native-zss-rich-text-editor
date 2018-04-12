@@ -24,7 +24,9 @@ export default class RichTextEditor extends Component {
 
   static defaultProps = {
     contentInset: {},
-    style: {}
+    style: {},
+    initialTitleHTML:'',
+    initialContentHTML: ''
   };
 
   constructor(props) {
